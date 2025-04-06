@@ -122,7 +122,8 @@ def computeSynthColumnSemantics(input_table, synth_type_kb):
     #synthInvertedIndex  = {}
     all_column_semantics = {}
     col_id = 0
-    for (columnName, columnData) in input_table.iteritems():
+    for (columnName, columnData) in input_table.items():
+    #for (columnName, columnData) in input_table.iteritems():
         sem = {}
         #creating the lookup table for data lake tables
         if getColumnType(input_table[columnName].tolist()) == 1:

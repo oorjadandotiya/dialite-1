@@ -16,6 +16,7 @@ def saveDictionaryAsPickleFile(dictionary, dictionaryPath):
     else:
         with bz2.BZ2File(dictionaryPath, "w") as f: 
             cPickle.dump(dictionary, f)
+            #pickle.dump(dictionary, f)
 
 #load csv file as a dictionary. Further preprocessing may be required after loading
 def loadDictionaryFromCsvFile(filePath):
@@ -52,6 +53,7 @@ def loadDictionaryFromPickleFile(dictionaryPath):
     else:
         dictionary = bz2.BZ2File(dictionaryPath, "rb")
         dictionary = cPickle.load(dictionary)
+        #dictionary = pickle.load(dictionary)
     print("The total number of keys in the dictionary are:", len(dictionary))
     return dictionary
 
