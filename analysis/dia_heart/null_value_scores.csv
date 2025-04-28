@@ -1,0 +1,6 @@
+Metric,Value
+Total Nulls Before Integration,0
+Total Nulls After Integration,11608
+Ground Truth Nulls,11608
+Null Value Score (Integrated Table),11608
+Null Value Score (Ground Truth Table),11608
