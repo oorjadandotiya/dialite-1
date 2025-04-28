@@ -1,0 +1,8 @@
+Metric,Value
+Total Nulls Before Integration,1.0
+Total Nulls After Integration,242.0
+Ground Truth Nulls,92.0
+Null Value Score (Integrated Table),241.0
+Null Value Score (Ground Truth Table),91.0
+Percentage Change in Nulls (Integrated Table),24100.0
+Percentage Change in Nulls (Ground Truth Table),9100.0
